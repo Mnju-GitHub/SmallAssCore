@@ -1,0 +1,10 @@
+name: SmallAssCore
+version: 1.0
+main: xyz.opnetwork.actuallycoolplugin.Main
+description: An actually cool plugin.
+author: Mnju
+
+commands: 
+    discord:
+        aliases: [dis, disc, disco, discor, dicsord, drocsid]
+        usage: /<command>
