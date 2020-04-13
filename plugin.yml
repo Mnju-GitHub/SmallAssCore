@@ -8,3 +8,6 @@ commands:
     discord:
         aliases: [dis, disc, disco, discor, dicsord, drocsid]
         usage: /<command>
+    bc:
+      aliases: [broadcast, cb, broad, broadcasr, fat]
+      usage: /<command> <args>

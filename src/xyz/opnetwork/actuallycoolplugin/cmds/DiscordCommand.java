@@ -15,7 +15,7 @@ public class DiscordCommand implements CommandExecutor {
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		if (!(sender instanceof Player)) {
 			String message = conf.getString("discord-link");
-			sender.sendMessage(Main.getPlugin(Main.class).translate(message));
+			sender.sendMessage(Main.getPlugin(Main.class).translate("&9&lApollo&b&lMC &8&l>> &3Join our Discord at &f&l" +message +"&3!"));
 		}
 		else {
 			String message = conf.getString("discord-link");
